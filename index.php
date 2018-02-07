@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
 
 function ServiceHandler() {
     $data = new stdClass();
-    $data->Output = "Welcome to NuraIT !";
+    $data->Output = "Hello Veera!";
 
     return json_encode($data);
 };
